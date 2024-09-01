@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  min-height: 250px;
+  width: 90%;
+  margin: 40px auto;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+header {
+  height: 150px;
+  width: 100%;
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#screen {
+  height: 50px;
+  width: 90%;
+  background: white;
+  border: 8px solid #474646;
+  margin-bottom: 35px;
+  position: relative;
+  top: 30px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 5px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  overflow-x: hidden;
+}
+section {
+  height: 250px;
+  display: grid;
+  background: #000;
+  padding: 2px;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(5, 20%);
+  grid-template-areas:
+    "del on ra plu"
+    "sep hu neu moin"
+    "qua cin six fois"
+    "un deu tro divi"
+    "ze dot egal egal";
+}
+.equal {
+  grid-area: egal;
+  background: green;
+  color: white;
+}
+.violet {
+  background: #770477;
+  color: white;
+}
+.red {
+  background: #970202;
+  color: white;
+}
+.green {
+  background: green;
+  color: white;
+}
+.maron {
+  background: #854000;
+  font-weight: bold;
+  color: white;
+}
+.white {
+  background: #e0dede;
+}
+button {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin: 3px;
+  border: none;
+  border-radius: 2px;
+}
+.dot {
+  font-size: 1.5rem;
+}
+.del {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.equal:active {
+  background: #24ad24;
+}
+.violet:active {
+  background: #ad16ad;
+}
+.red:active {
+  background: #bb2626;
+}
+.yello:active {
+  background: #af621a;
+}
+.btn:active {
+  background: #83817f;
+}
